@@ -30,6 +30,9 @@ visibility: hidden;
     background-size: cover;
     box-shadow: inset 0 0 1px black, 0 0 1px black;
 }
+.roleCircle-3-vPZq {
+	display:none !important;
+}
 .message-group-blocked{
 	display:none !important;
 }
