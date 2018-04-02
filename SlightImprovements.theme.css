@@ -17,10 +17,10 @@ body {
     font-size: 1.2rem;
 }
 .scrollerWrap-2uBjct .scroller-fzNleyr::-webkit-scrollbar-thumb {
-display: none !important;
+visibility: hidden;
 }
 .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track-piece {
-display: none !important;
+visibility: hidden;
 }
 .guild-inner,
 .guilds-add,
