@@ -7,6 +7,7 @@ body {
     height: 40px;
     background-size: cover;
     box-shadow: inset 0 0 13px black, 0 0 3px black;
+		padding:10px;
 }
 .chat .user-name {
     text-shadow: 0 0 3px transparent;
@@ -35,6 +36,10 @@ visibility: hidden;
 }
 .message-group-blocked{
 	display:none !important;
+}
+.message-group.hide-overflow {
+    margin-top: 10px;
+background-color: rgb(32, 34, 37);
 }
 .guild.selected::before {
 		    opacity: 1 !important;
