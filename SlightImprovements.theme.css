@@ -1,0 +1,77 @@
+body {
+		font-family: Calibri Light;
+	}
+	.chat .avatar-large {
+    opacity: 1 !important;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    box-shadow: inset 0 0 13px black, 0 0 3px black;
+}
+.chat .user-name {
+    text-shadow: 0 0 3px transparent;
+    transition: text-shadow .2s linear, font-size .2s linear;
+}
+.chat .user-name:hover {
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-size: 1.2rem;
+}
+.guild-inner,
+.guilds-add,
+.guilds-error,
+.guild-placeholder * {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 1px black, 0 0 1px black;
+}
+.guild.selected::before {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 1px black, 0 0 1px black;
+}
+.avatarWrapperNormal-JT1DFd.avatarWrapper-39HKca {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 1px black, 0 0 1px black;
+}
+.avatar-1BXaQj.profile-3z9uol.avatar-4g_GO6 {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 1px black, 0 0 1px black !important;
+}
+.avatar-1BXaQj.small-TEeAkX {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 0.5px black, 0 0 0.5px black !important;
+}
+.avatar-small.stop-animation {
+		    opacity: 1 !important;
+    background-size: cover;
+    box-shadow: inset 0 0 0.5px black, 0 0 0.5px black !important;
+}
+.bd-toasts,.toasts{
+	width:calc(100% - 10px)!important;
+	height:calc(100% - 7px)!important;
+	position:absolute;
+	top: initial!important;
+	right: initial!important;
+	bottom: 30px!important;
+	left:initial!important;
+	display:flex;
+	flex-flow:column;
+	justify-content:flex-end;
+}
+.bd-toasts{
+	left:10px!important;
+	align-itmes: flex-start;
+}
+.toasts{
+	right:10px!important;
+	align-items: flex-end;
+}
+.bd-toasts:nth-child(5):last-child,.toasts:nth-child(5):last-child{
+	width:100%!important;
+	right:initial!important;
+	left: 0!important;
+	align-items:center;
+}
