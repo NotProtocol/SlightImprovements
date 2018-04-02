@@ -16,6 +16,12 @@ body {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     font-size: 1.2rem;
 }
+.scrollerWrap-2uBjct .scroller-fzNleyr::-webkit-scrollbar-thumb {
+display: none !important;
+}
+.scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-track-piece {
+display: none !important;
+}
 .guild-inner,
 .guilds-add,
 .guilds-error,
